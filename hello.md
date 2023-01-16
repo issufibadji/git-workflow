@@ -12,5 +12,10 @@
 -git checkout -- test.txt -> remove as ultimas alteraçoes nos arquivos
 -git commit -m"subindo arquivos"
 ## GitHub como Repositório
+-cria repositorio 
+- git remote add origin https://github.com/issufibadji/git_workflow.git
+- git remote
+- git remote -v ->Saber de mais detalhes
+
 
 
