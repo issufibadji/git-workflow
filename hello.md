@@ -16,7 +16,7 @@
 - git remote add origin https://github.com/issufibadji/git_workflow.git
 - git remote
 - git remote -v ->Saber de mais detalhes
-- -git pull origin master ->sicroniaza com remoto
+- git pull origin master  --allow-unrelated-histories ->sicroniaza com remoto
 
 
 
