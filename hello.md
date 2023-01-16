@@ -17,6 +17,7 @@
 - git remote
 - git remote -v ->Saber de mais detalhes
 - git pull origin master  --allow-unrelated-histories ->sicroniaza com remoto
+- git push --set-upstream origin master->subir
 
 
 
