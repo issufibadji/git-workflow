@@ -30,7 +30,16 @@
 - git log --oneline -n 2 --stat ->mesclar comandos
 - git log --oneline --decorate 
 - git log --oneline --decorate --parents ->mostra comite como o pai dele
-- git diff ->mostra o arq original e arq modificado
+- git diff ->Veja a diferença entre Palco e Diretório de Trabalho
+- git diff --staged -> Veja a diferença entre HEAD e Stage
+- git diff HEAD -> Veja a diferença entre HEAD e diretório de trabalho
+- git diff estilo.css 
+- git status -v -v -> mostra a diferença entre o índice e a árvore de trabalho, além da HEADdiferença do índice
+- git diff f315cf1 ->com cogido de commit
+- git  diff f315cf1..cc42504->Ver commite por intervalo
+- git  diff f315cf1~4-> Ver intervalo entre commit citado e quatro ultimos
+
+
 
 ----------------------------------------------------------------------
 # resume
