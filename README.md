@@ -27,7 +27,10 @@
 - git log --oneline
 - git log --stat
 - tecla Q para sair do formato git
-
+- git log --oneline -n 2 --stat ->mesclar comandos
+- git log --oneline --decorate 
+- git log --oneline --decorate --parents ->mostra comite como o pai dele
+- git diff ->mostra o arq original e arq modificado
 
 ----------------------------------------------------------------------
 # resume
