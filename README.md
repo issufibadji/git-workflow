@@ -107,14 +107,3 @@ git branch -D -r origin/correcaoCobrancaPush
   https://education.github.com/git-cheat-sheet-education.pdf
  
 ---------------
-
-deleta o repositorio q vc tem hj e clona via ssh
-
-VERIFIQUE SE TEM ALGUMA COISA PRA PUBLICAR, VC VAI PERDER TUDO!!!!
-
-1- deleta pelo smartgit
-2- rm -rf cloud
-3- git clone git@github.com:Superlogica/plataforma.git
-
-
-
