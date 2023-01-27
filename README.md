@@ -103,13 +103,9 @@ git branch -D -r origin/correcaoCobrancaPush
   git reset --hard origin/nomeBranch
   git pull
 
-
-
 * Documentação
   https://education.github.com/git-cheat-sheet-education.pdf
-
-
-
+ 
 ---------------
 
 deleta o repositorio q vc tem hj e clona via ssh
