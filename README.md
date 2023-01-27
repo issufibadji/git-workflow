@@ -44,61 +44,61 @@
 
 ----------------------------------------------------------------------
 # resume
-//Criar branch
+## Criar branch
 git checkout -b novaBranch branchOrigem
 
-//Limpar tudo
+## Limpar tudo
 git clean -f
 
-//Enviar nova branch pro repositório
+## Enviar nova branch pro repositório
 git push --set-upstream origin nomeBranch
 
-//Trocar de branch
+## Trocar de branch
 git checkout nomeBranch
 
-//Adicionar arquivos novos
+## Adicionar arquivos novos
 git add [file]
 
-//Adicionar todos os arquivos (cuidado!!)
+## Adicionar todos os arquivos (cuidado!!)
 git add *
 
-//Commitar
+## Commitar
 git commit -am "TEXTO REFERENTE AO COMMIT"
 
-//Atualizar branch
+## Atualizar branch
 git pull
 
-//Enviar pro git
+## Enviar pro git
 git push
 
-//Merge
+## Merge
 git merge branchOrigem
 
-//Reveter um commit que ainda não foi sincronizado
+## Reveter um commit que ainda não foi sincronizado
 git reset --soft HEAD^
 
-//Verificar status do git
+## Verificar status do git
 git status
 
-//Listar branchs locais
+## Listar branchs locais
 git branch
 
-//Listar branchs do repositorio
+## Listar branchs do repositorio
 git branch --all
 
-//Abortar um merge
+## Abortar um merge
 git merge --abort
 
-//Discartar um arquivo
+## Discartar um arquivo
 git checkout -- [file]
 
-//Deletar branch local
+## Deletar branch local
 git branch -D nomeBranch
 
-//Deletar branch do repositorio
+## Deletar branch do repositorio
 git branch -D -r origin/correcaoCobrancaPush
 
-* limpar tudo
+## limpar tudo
   git fetch origin
   git reset --hard origin/nomeBranch
   git pull
